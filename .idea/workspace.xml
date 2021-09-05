@@ -22,10 +22,36 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6fa4f29-aeec-41f9-acaa-6c7b42f8062a" name="Default Changelist" comment="update RenderBatch class&#10;update Renderer class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/AssetPool.java" afterDir="false" />
+    <list default="true" id="b6fa4f29-aeec-41f9-acaa-6c7b42f8062a" name="Default Changelist" comment="Texture Batching">
+      <change afterPath="$PROJECT_DIR$/src/main/java/components/Sprite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/components/Spritesheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/shaders/default.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shaders/default.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jade/LevelEditorScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jade/LevelEditorScene.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jade/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jade/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/renderer/Shader.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/renderer/Shader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/SpriteRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/SpriteRenderer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jade/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/LevelEditorScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jade/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Window.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/renderer/RenderBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/RenderBatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/renderer/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/Renderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/renderer/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/Texture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/AssetPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/AssetPool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,8 +108,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -104,7 +130,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="df0555f9-d0e5-4114-993b-6ee12570d7c4" name="Default Changelist" comment="" />
+      <changelist id="b6fa4f29-aeec-41f9-acaa-6c7b42f8062a" name="Default Changelist" comment="Texture Batching" />
       <created>1630669705335</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -158,7 +184,13 @@
       <option name="presentableId" value="LOCAL‎00008" />
       <updated>1630684587826</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL‎00009" summary="Add AssetPool class&#10;update RenderBatch class&#10;update LevelEditorScene class">
+      <created>1630684992699</created>
+      <option name="number" value="LOCAL‎00009" />
+      <option name="presentableId" value="LOCAL‎00009" />
+      <updated>1630684992699</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,13 +213,14 @@
     <MESSAGE value="add Texture class&#10;update LevelEditorScene class&#10;update Shader class&#10;add images of mario to images dictionary" />
     <MESSAGE value="add Component class&#10;add Transform class&#10;add RenderBatch class&#10;add Renderer class" />
     <MESSAGE value="update RenderBatch class&#10;update Renderer class" />
-    <option name="LAST_COMMIT_MESSAGE" value="update RenderBatch class&#10;update Renderer class" />
+    <MESSAGE value="Add AssetPool class&#10;update RenderBatch class&#10;update LevelEditorScene class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add AssetPool class&#10;update RenderBatch class&#10;update LevelEditorScene class" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="121" y="0" key="#Project_Structure" timestamp="1630670050898">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1630685455346">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="121" y="0" key="#Project_Structure/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630670050898" />
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630685455346" />
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630676883874">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -200,50 +233,58 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="135" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630670589918" />
-    <state x="424" y="210" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1630670144238">
+    <state x="424" y="210" width="432" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1630842597517">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="424" y="210" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630670144238" />
+    <state x="424" y="210" width="432" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630842597517" />
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1630840793130">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630840793130" />
     <state x="421" y="87" key="FileChooserDialogImpl" timestamp="1630671202240">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="87" key="FileChooserDialogImpl/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630671202240" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1630684519252">
+    <state width="1237" height="208" key="GridCell.Tab.0.bottom" timestamp="1630843914821">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630684519252" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1630684519252">
+    <state width="1237" height="208" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914821" />
+    <state width="1237" height="208" key="GridCell.Tab.0.center" timestamp="1630843914821">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630684519252" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1630684519252">
+    <state width="1237" height="208" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914821" />
+    <state width="1237" height="208" key="GridCell.Tab.0.left" timestamp="1630843914821">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630684519252" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1630684519252">
+    <state width="1237" height="208" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914821" />
+    <state width="1237" height="208" key="GridCell.Tab.0.right" timestamp="1630843914821">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630684519252" />
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1630679137582">
+    <state width="1237" height="208" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914821" />
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1630843914822">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630679137582" />
-    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1630679137581">
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914822" />
+    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1630843914822">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630679137581" />
-    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1630679137581">
+    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914822" />
+    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1630843914821">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630679137581" />
-    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1630679137582">
+    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914821" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1630843914822">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630679137582" />
-    <state x="233" y="65" key="Vcs.Push.Dialog.v2" timestamp="1630684589557">
+    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914822" />
+    <state x="233" y="65" key="Vcs.Push.Dialog.v2" timestamp="1630684994405">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="65" key="Vcs.Push.Dialog.v2/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630684589557" />
+    <state x="233" y="65" key="Vcs.Push.Dialog.v2/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630684994405" />
+    <state x="452" y="123" key="chooseDestDirectoryDialog" timestamp="1630685282729">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="452" y="123" key="chooseDestDirectoryDialog/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630685282729" />
     <state x="458" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1630678573404">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -252,5 +293,16 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630671309357" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jade/Window.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
