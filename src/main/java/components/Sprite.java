@@ -1,3 +1,4 @@
+/*
 package components;
 
 import org.joml.Vector2f;
@@ -31,4 +32,4 @@ public class Sprite {
     public Vector2f[] getTexCoords() {
         return this.texCoords;
     }
-}
+}*/

@@ -1,3 +1,4 @@
+/*
 package components;
 
 import org.joml.Vector2f;
@@ -43,4 +44,4 @@ public class Spritesheet {
     public Sprite getSprite(int index) {
         return this.sprites.get(index);
     }
-}
+}*/
