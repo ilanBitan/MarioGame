@@ -22,10 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6fa4f29-aeec-41f9-acaa-6c7b42f8062a" name="Default Changelist" comment="getting Serialization with Gson">
-      <change afterPath="$PROJECT_DIR$/level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jade/ComponentDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jade/GameObjectDeserializer.java" afterDir="false" />
+    <list default="true" id="b6fa4f29-aeec-41f9-acaa-6c7b42f8062a" name="Default Changelist" comment="creating Deserialization with Gson">
+      <change afterPath="$PROJECT_DIR$/src/main/java/components/Rigidbody.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -33,14 +31,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/jade/LevelEditorScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jade/LevelEditorScene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jade/Scene.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jade/Scene.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/jade/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jade/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgui.ini" beforeDir="false" afterPath="$PROJECT_DIR$/imgui.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/SpriteRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/SpriteRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jade/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Component.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jade/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/LevelEditorScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Scene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jade/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -255,7 +253,13 @@
       <option name="presentableId" value="LOCAL‎00017" />
       <updated>1631204487719</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL‎00018" summary="creating Deserialization with Gson">
+      <created>1631205570257</created>
+      <option name="number" value="LOCAL‎00018" />
+      <option name="presentableId" value="LOCAL‎00018" />
+      <updated>1631205570257</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +291,8 @@
     <MESSAGE value="Integrating ImGui creating the base" />
     <MESSAGE value="ImGui Fonts and Scene Integration" />
     <MESSAGE value="getting Serialization with Gson" />
-    <option name="LAST_COMMIT_MESSAGE" value="getting Serialization with Gson" />
+    <MESSAGE value="creating Deserialization with Gson" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating Deserialization with Gson" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1630685455346">
@@ -319,26 +324,26 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="87" key="FileChooserDialogImpl/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630671202240" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1631205506613">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1631206678072">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630860574535" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1631205506613" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1631205506613">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1631206678072" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1631206678072">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630860574535" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1631205506613" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1631205506613">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1631206678072" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1631206678072">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630860574535" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1631205506613" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1631205506613">
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1631206678072" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1631206678072">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630860574535" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1631205506613" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1631206678072" />
     <state width="920" height="208" key="GridCell.Tab.1.bottom" timestamp="1631205345913">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -359,11 +364,11 @@
     </state>
     <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914822" />
     <state width="920" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1631205345913" />
-    <state x="233" y="65" key="Vcs.Push.Dialog.v2" timestamp="1631204489814">
+    <state x="233" y="65" key="Vcs.Push.Dialog.v2" timestamp="1631205571701">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="65" key="Vcs.Push.Dialog.v2/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630859407226" />
-    <state x="233" y="65" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1631204489814" />
+    <state x="233" y="65" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1631205571701" />
     <state x="452" y="123" key="chooseDestDirectoryDialog" timestamp="1630685282729">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
