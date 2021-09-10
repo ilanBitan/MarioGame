@@ -1,7 +1,5 @@
-/*
 package components;
 
-import jade.Component;
 import jade.GameObject;
 import jade.MouseListener;
 import jade.Window;
@@ -31,4 +29,4 @@ public class MouseControls extends Component {
             }
         }
     }
-}*/
+}

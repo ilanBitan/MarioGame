@@ -1,4 +1,3 @@
-/*
 package jade;
 
 import components.Sprite;
@@ -16,4 +15,4 @@ public class Prefabs {
 
         return block;
     }
-}*/
+}

@@ -1,4 +1,4 @@
-package jade;
+package components;
 
 import imgui.ImGui;
 import jade.GameObject;
