@@ -10,7 +10,6 @@ import jade.Transform;
 import org.joml.Vector2f;
 import physics2d.PhysicsSystem2D;
 import physics2d.rigidbody.Rigidbody2D;
-
 import util.AssetPool;
 
 public class LevelEditorScene extends Scene {
@@ -45,21 +44,15 @@ public class LevelEditorScene extends Scene {
 
         loadResources();
         this.camera = new Camera(new Vector2f(-250, 0));
-        sprites = AssetPool.getSpritesheet("assets/images/spritesheets/level1.png");
-        if (levelLoaded) {
-            if (gameObjects.size() > 0) {
-                this.activeGameObject = gameObjects.get(0);
-            }
-            return;
-        }
+        sprites = AssetPool.getSpritesheet("assets/images/spritesheets/decorationsAndBlocks.png");
     }
 
     private void loadResources() {
         AssetPool.getShader("assets/shaders/default.glsl");
 
-        AssetPool.addSpritesheet("assets/images/spritesheets/level1.png",
-                new Spritesheet(AssetPool.getTexture("assets/images/spritesheets/level1.png"),
-                        30, 30, 1000, 0));
+        AssetPool.addSpritesheet("assets/images/spritesheets/decorationsAndBlocks.png",
+                new Spritesheet(AssetPool.getTexture("assets/images/spritesheets/decorationsAndBlocks.png"),
+                        16, 16, 81, 0));
         AssetPool.getTexture("assets/images/blendImage2.png");
 
         for (GameObject g : gameObjects) {
@@ -83,7 +76,10 @@ public class LevelEditorScene extends Scene {
 //        DebugDraw.addBox2D(obj1.position, new Vector2f(32, 32), 0.0f, new Vector3f(1, 0, 0));
 //        DebugDraw.addBox2D(obj2.position, new Vector2f(32, 32), 0.0f, new Vector3f(0.2f, 0.8f, 0.1f));
 //        physics.update(dt);
+    }
 
+    @Override
+    public void render() {
         this.renderer.render();
     }
 

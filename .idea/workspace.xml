@@ -22,18 +22,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6fa4f29-aeec-41f9-acaa-6c7b42f8062a" name="Default Changelist" comment="Adding a Game Viewport&#10;added GameViewWindow class">
+    <list default="true" id="b6fa4f29-aeec-41f9-acaa-6c7b42f8062a" name="Default Changelist" comment="fixed some bugs&#10;confirm before sleep">
+      <change afterPath="$PROJECT_DIR$/assets/shaders/pickingShader.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/editor/PropertiesWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2d/rigidbody/CollisionManifold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2d/rigidbody/Collisions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/renderer/PickingTexture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jade/MouseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jade/MouseListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jade/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jade/Window.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imgui.ini" beforeDir="false" afterPath="$PROJECT_DIR$/imgui.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/editor/GameViewWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/editor/GameViewWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jade/ImGuiLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/ImGuiLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jade/MouseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/MouseListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jade/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/renderer/RenderBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/RenderBatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/renderer/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/Renderer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/scenes/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scenes/LevelEditorScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scenes/LevelScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scenes/LevelScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scenes/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scenes/Scene.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +303,13 @@
       <option name="presentableId" value="LOCAL‎00024" />
       <updated>1631392496368</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL‎00025" summary="fixed some bugs&#10;confirm before sleep">
+      <created>1631394535999</created>
+      <option name="number" value="LOCAL‎00025" />
+      <option name="presentableId" value="LOCAL‎00025" />
+      <updated>1631394535999</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,7 +347,8 @@
     <MESSAGE value="Drag 'N Drop Level Editor&#10;added MouseControls and Prefabs classes&#10;moved all the scenes classes to &quot;scenes&quot; directory" />
     <MESSAGE value="I update the version of SpaiR ImGui port that we are using to the latest version, and then import those changes. Then, I use ocornut's C++ version of ImGui to see how to enable docking, and we follow his example and enable it in our version. This introduces a new problem which is having a game viewport." />
     <MESSAGE value="Adding a Game Viewport&#10;added GameViewWindow class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a Game Viewport&#10;added GameViewWindow class" />
+    <MESSAGE value="fixed some bugs&#10;confirm before sleep" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some bugs&#10;confirm before sleep" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1630685455346">
@@ -359,51 +380,51 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="87" key="FileChooserDialogImpl/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630671202240" />
-    <state width="1237" height="174" key="GridCell.Tab.0.bottom" timestamp="1631394419968">
+    <state width="1237" height="174" key="GridCell.Tab.0.bottom" timestamp="1631450198489">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630860574535" />
-    <state width="1237" height="174" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1631394419968" />
-    <state width="1237" height="174" key="GridCell.Tab.0.center" timestamp="1631394419968">
+    <state width="1237" height="174" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1631450198489" />
+    <state width="1237" height="174" key="GridCell.Tab.0.center" timestamp="1631450198489">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630860574535" />
-    <state width="1237" height="174" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1631394419968" />
-    <state width="1237" height="174" key="GridCell.Tab.0.left" timestamp="1631394419968">
+    <state width="1237" height="174" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1631450198489" />
+    <state width="1237" height="174" key="GridCell.Tab.0.left" timestamp="1631450198489">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630860574535" />
-    <state width="1237" height="174" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1631394419968" />
-    <state width="1237" height="174" key="GridCell.Tab.0.right" timestamp="1631394419968">
+    <state width="1237" height="174" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1631450198489" />
+    <state width="1237" height="174" key="GridCell.Tab.0.right" timestamp="1631450198489">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630860574535" />
-    <state width="1237" height="174" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1631394419968" />
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1631394157230">
+    <state width="1237" height="174" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1631450198489" />
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1631406687189">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914822" />
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1631394157230" />
-    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1631394157230">
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1631406687189" />
+    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1631406687189">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914822" />
-    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1631394157230" />
-    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1631394157230">
+    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1631406687189" />
+    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1631406687189">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914821" />
-    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1631394157230" />
-    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1631394157230">
+    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1631406687189" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1631406687189">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914822" />
-    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1631394157230" />
-    <state x="233" y="65" key="Vcs.Push.Dialog.v2" timestamp="1631392498051">
+    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1631406687189" />
+    <state x="233" y="65" key="Vcs.Push.Dialog.v2" timestamp="1631394537275">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="65" key="Vcs.Push.Dialog.v2/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630859407226" />
-    <state x="233" y="65" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1631392498051" />
+    <state x="233" y="65" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1631394537275" />
     <state x="452" y="123" key="chooseDestDirectoryDialog" timestamp="1630685282729">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
