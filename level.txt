@@ -45,15 +45,17 @@
     ],
     "transform": {
       "position": {
-        "x": 192.0,
-        "y": 608.0
+        "x": 233.97307,
+        "y": 580.8789
       },
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 2,
@@ -107,9 +109,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 3,
@@ -163,9 +167,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 4,
@@ -219,9 +225,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 5,
@@ -275,9 +283,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 6,
@@ -331,9 +341,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 7,
@@ -387,9 +399,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 8,
@@ -443,9 +457,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 9,
@@ -499,9 +515,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 10,
@@ -555,9 +573,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 11,
@@ -611,9 +631,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 12,
@@ -667,9 +689,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 13,
@@ -723,9 +747,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 14,
@@ -779,9 +805,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 15,
@@ -835,9 +863,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 16,
@@ -885,15 +915,17 @@
     ],
     "transform": {
       "position": {
-        "x": 896.0,
-        "y": 704.0
+        "x": 562.5515,
+        "y": 347.53317
       },
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 17,
@@ -947,9 +979,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 18,
@@ -1003,9 +1037,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 19,
@@ -1059,9 +1095,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 20,
@@ -1115,9 +1153,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 21,
@@ -1171,9 +1211,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 22,
@@ -1221,15 +1263,17 @@
     ],
     "transform": {
       "position": {
-        "x": 896.0,
-        "y": 512.0
+        "x": 800.8077,
+        "y": 412.2445
       },
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 23,
@@ -1283,9 +1327,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 24,
@@ -1339,9 +1385,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 25,
@@ -1395,9 +1443,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 26,
@@ -1451,9 +1501,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 27,
@@ -1507,9 +1559,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 28,
@@ -1563,9 +1617,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 29,
@@ -1575,9 +1631,9 @@
         "type": "components.SpriteRenderer",
         "properties": {
           "color": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0,
+            "x": 0.9121622,
+            "y": 0.12942842,
+            "z": 0.12942842,
             "w": 1.0
           },
           "sprite": {
@@ -1619,9 +1675,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 30,
@@ -1675,9 +1733,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 31,
@@ -1725,15 +1785,17 @@
     ],
     "transform": {
       "position": {
-        "x": 416.0,
-        "y": 448.0
+        "x": 520.0866,
+        "y": 476.06265
       },
       "scale": {
-        "x": 32.0,
+        "x": 24.735352,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 32,
@@ -1787,8 +1849,10 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   }
 ]
