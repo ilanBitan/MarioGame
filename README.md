@@ -1,6 +1,6 @@
 # Coding a 2D Game Engine in Java
 
-This is my first 2D game based on Mario nostalgic game
+This is my first 2D game based on Mario nostalgic game.
 
 ## To Run
 
