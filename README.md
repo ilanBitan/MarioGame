@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/62257681/139892750-1cc92012-6f68-4812-868d-65b1d8614140.png)
 
 **This is my first 2D game based on Mario nostalgic game.**
-
+short video about my project: https://youtu.be/tiM2-DVS5Hg
 ## To Run
 
 1. You must have Gradle 6.3+ and Java 1.8+ installed. If you do not have these installed, you should install them and add them to your environment variables.
@@ -25,3 +25,4 @@
     * This should open a new Window with the Mario game running.
     
 ![image](https://user-images.githubusercontent.com/62257681/139877858-eb643d39-2a27-435c-9032-cb0008f09f34.png)
+
