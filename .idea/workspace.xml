@@ -23,102 +23,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6fa4f29-aeec-41f9-acaa-6c7b42f8062a" name="Default Changelist" comment="Enabling Mouse Picking and Code Maintenance&#10;adding CollisionManifold and Collisions classes&#10;adding PickingTexture class and pickingShader.glsl&#10;adding PropertiesWindow class&#10;fixed the blocks problem now we can choose specific block and change his own color">
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/AnimationState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/BlockCoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/BreakableBrick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/Fireball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/Flagpole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/Flower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/Frame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/GameCamera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/GoombaAI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/Ground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/KeyControls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/MushroomAI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/Pipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/PlayerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/QuestionBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/StateMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/TurtleAI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/editor/JImGui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/editor/MenuBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/editor/SceneHierarchyWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jade/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jade/Sound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observers/EventSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observers/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observers/events/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observers/events/EventType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/physics2d/JadeContactListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/physics2d/RaycastInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scenes/LevelSceneInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2d/Physics2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2d/components/Box2DCollider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2d/components/CircleCollider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2d/components/PillboxCollider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2d/components/Rigidbody2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2d/enums/BodyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/PhysicsSystem2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/forces/ForceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/forces/ForceRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/forces/ForceRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/forces/Gravity2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/primitives/AABB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/primitives/Box2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/primitives/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/primitives/Collider2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/primitives/Ray2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/primitives/RaycastResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/rigidbody/CollisionManifold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/rigidbody/Collisions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/rigidbody/IntersectionDetector2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/physics2dtmp/rigidbody/Rigidbody2D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jade/KeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jade/KeyListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jade/MouseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jade/MouseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jade/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jade/Window.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgui.ini" beforeDir="false" afterPath="$PROJECT_DIR$/imgui.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/EditorCamera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/EditorCamera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/Gizmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/Gizmo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/GizmoSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/GizmoSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/GridLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/GridLines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/MouseControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/MouseControls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/ScaleGizmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/ScaleGizmo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/SpriteRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/SpriteRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/Spritesheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/Spritesheet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/TranslateGizmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/TranslateGizmo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/editor/GameViewWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/editor/GameViewWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/editor/PropertiesWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/editor/PropertiesWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/GameObjectDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/GameObjectDeserializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/ImGuiLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/ImGuiLayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/KeyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/KeyListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/MouseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/MouseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/Prefabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Prefabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/Transform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Transform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/PhysicsSystem2D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/forces/ForceGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/forces/ForceRegistration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/forces/ForceRegistry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/forces/Gravity2D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/primitives/AABB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/primitives/Box2D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/primitives/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/primitives/Collider2D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/primitives/Ray2D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/primitives/RaycastResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/rigidbody/CollisionManifold.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/rigidbody/Collisions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/rigidbody/IntersectionDetector2D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics2d/rigidbody/Rigidbody2D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/renderer/DebugDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/DebugDraw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/renderer/PickingTexture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/PickingTexture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/renderer/RenderBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/RenderBatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/renderer/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/Renderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scenes/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scenes/LevelEditorSceneInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scenes/LevelScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scenes/SceneInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scenes/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scenes/Scene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/AssetPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/AssetPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Settings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/physics2d/CollisionDetectorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/physics2dtmp/CollisionDetectorTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,10 +89,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Program Files/JetBrains/IntelliJ IDEA Community Edition 2020.2.3/plugins/maven/lib/maven3" />
+        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -173,17 +109,20 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MarioGame1/src" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bitan\IdeaProjects\MarioGame\src\main\java\physics2dtmp\primitives" />
+      <recent name="C:\Users\אילן\IdeaProjects\MarioGame\assets" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\אילן\IdeaProjects\MarioGame\assets" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -195,6 +134,27 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="C:/Users/bitan/IdeaProjects/MarioGame/build.gradle [fatJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="fatJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="MarioGame [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -212,11 +172,19 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="jbox2d-library.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/libs/jbox2d-library.jar" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.jbox2d-library.jar" />
+        <item itemvalue="Gradle.C:/Users/bitan/IdeaProjects/MarioGame/build.gradle [fatJar]" />
         <item itemvalue="Gradle.MarioGame [dependencies]" />
       </list>
     </recent_temporary>
@@ -399,7 +367,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Main Class and Window Class&#10;Added Listeners Classes (Mouse and Key)" />
@@ -427,105 +394,6 @@
     <MESSAGE value="fixed some bugs&#10;confirm before sleep" />
     <MESSAGE value="Enabling Mouse Picking and Code Maintenance&#10;adding CollisionManifold and Collisions classes&#10;adding PickingTexture class and pickingShader.glsl&#10;adding PropertiesWindow class&#10;fixed the blocks problem now we can choose specific block and change his own color" />
     <option name="LAST_COMMIT_MESSAGE" value="Enabling Mouse Picking and Code Maintenance&#10;adding CollisionManifold and Collisions classes&#10;adding PickingTexture class and pickingShader.glsl&#10;adding PropertiesWindow class&#10;fixed the blocks problem now we can choose specific block and change his own color" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="121" y="0" key="#Project_Structure" timestamp="1630685455346">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="121" y="0" key="#Project_Structure/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630685455346" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630676883874">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630676883874" />
-    <state x="393" y="147" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632007125589">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="393" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630679904770" />
-    <state x="393" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1632007125589" />
-    <state x="371" y="135" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1630670589918">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="371" y="135" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630670589918" />
-    <state x="345" y="270" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1631565738214">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="345" y="270" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.689@0.0.1280.689" timestamp="1631565738214" />
-    <state x="424" y="210" width="432" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1631549904874">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="424" y="210" width="432" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630842597517" />
-    <state x="424" y="210" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.689@0.0.1280.689" timestamp="1631549904874" />
-    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1630840793130">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630840793130" />
-    <state x="421" y="87" key="FileChooserDialogImpl" timestamp="1631538938587">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="421" y="87" key="FileChooserDialogImpl/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630671202240" />
-    <state x="421" y="87" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1631538938587" />
-    <state width="1237" height="182" key="GridCell.Tab.0.bottom" timestamp="1632853953720">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630860574535" />
-    <state width="1237" height="182" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1632853953720" />
-    <state width="1237" height="182" key="GridCell.Tab.0.center" timestamp="1632853953720">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630860574535" />
-    <state width="1237" height="182" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1632853953720" />
-    <state width="1237" height="182" key="GridCell.Tab.0.left" timestamp="1632853953720">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630860574535" />
-    <state width="1237" height="182" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1632853953720" />
-    <state width="1237" height="182" key="GridCell.Tab.0.right" timestamp="1632853953720">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630860574535" />
-    <state width="1237" height="182" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1632853953720" />
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1631737139987">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914822" />
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1631737139987" />
-    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1631737139987">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914822" />
-    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1631737139987" />
-    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1631737139986">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914821" />
-    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1631737139986" />
-    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1631737139987">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630843914822" />
-    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1631737139987" />
-    <state x="233" y="65" key="Vcs.Push.Dialog.v2" timestamp="1631450563076">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="233" y="65" key="Vcs.Push.Dialog.v2/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630859407226" />
-    <state x="233" y="65" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1631450563076" />
-    <state x="452" y="123" key="chooseDestDirectoryDialog" timestamp="1630685282729">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="452" y="123" key="chooseDestDirectoryDialog/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630685282729" />
-    <state x="458" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1630678573404">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="458" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630678573404" />
-    <state x="297" y="153" key="run.anything.popup" timestamp="1631652442848">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="297" y="153" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1631652442848" />
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1632852822499">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689/1920.0.1360.738@0.0.1280.689" timestamp="1630671309357" />
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1632852822499" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
