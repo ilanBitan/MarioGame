@@ -1,5 +1,5 @@
 # SuperClaw - Alpha Version
-![image](https://user-images.githubusercontent.com/62257681/139892750-1cc92012-6f68-4812-868d-65b1d8614140.png)
+![image](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.geocities.ws%2Fclawjunior%2Fstory.html&psig=AOvVaw28ZHq9qbCLm6suJFzN_sJ5&ust=1663975583983000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMCLs6XGqfoCFQAAAAAdAAAAABAP)
 
 **This is my first 2D game based on Mario nostalgic game.**
 
